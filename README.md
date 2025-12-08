@@ -1,6 +1,10 @@
-PL-Stitch
----------
-[📚 Paper](https://www.arxiv.org/abs/2511.17805) - [🤖 Code](src) - [🤗 Model](https://huggingface.co/visurg/PL-Stitch)
+**PL-Stitch**
+-------------
+
+<!-- Paper -->
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge)](https://www.arxiv.org/abs/2511.17805)
+[![Model](https://img.shields.io/badge/Model-HuggingFace-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/PL-Stitch)
+
 
 This is the official repository for the paper [A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](https://www.arxiv.org/abs/2511.17805).
 
