@@ -60,9 +60,9 @@ Procedural activities, ranging from routine cooking to complex surgical operatio
 🚀 Training
 ------------
 
-You can use our code of the data curation pipeline and provided annotation file (["labels.json"](https://github.com/visurg-ai/LEMON/blob/main/labels.json)) to recreate the whole LEMON dataset.
 
-1. Get your YouTube cookie:
+**Dataset**
+
 
    You need to provide a "cookies.txt" file if you want to download videos that require Youtube login. 
 
@@ -89,10 +89,10 @@ You can use our code of the data curation pipeline and provided annotation file 
    ```
 
 <br>
-The video processing pipeline leading to the clean videos in the LEMON dataset is as follows:
 
-<img src="https://github.com/user-attachments/assets/cb21d841-ad49-4834-b77e-dbc24fe6699e">
+**t-SNE visualization of frozen backbone features for Cholec80 phase recognition**
 
+<img src="https://github.com/user-attachments/assets/9266ea99-44c6-4d28-a12c-7bd7e9361168" />
 
 🚩 PL-Stitch model
 ------------------
