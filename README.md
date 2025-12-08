@@ -1,18 +1,16 @@
-<p align="center">
-    <a href="https://visurg.ai/">
-    <img src="https://github.com/user-attachments/assets/92fc59cb-5392-4a72-95b5-35104df129e0">
-    </a>
-</p>
-
-
+PL-Stitch
+---------
 [📚 Paper](https://www.arxiv.org/abs/2511.17805) - [🤖 Code](src) - [🤗 Model](https://huggingface.co/visurg/LemonFM)
+
+This is the official repository for the paper [A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](https://www.arxiv.org/abs/2511.17805).
+
+*PL-Stitch* is an image foundation model for procedural activity understanding. It takes an image as input and produces a feature vector as output, leveraging the novel Plackett-Luce temporal ranking objective to build a comprehensive understanding of both the static semantic information and the procedural context within each frame.
+
+
 
 Star ⭐ us if you like it!
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6250cd6a-1404-4786-9c15-fe396265940d" width="70%" > </img>
-</div>
-
+<img src="https://github.com/user-attachments/assets/e7b35eca-ff57-4d3c-960c-ff4c4a93f092" />
 
 ## News
 
@@ -21,17 +19,11 @@ Star ⭐ us if you like it!
 
 <br>
 
-This is the official repository for the paper [LEMON: A Large Endoscopic MONocular Dataset and Foundation Model for Perception in Surgical Settings](https://arxiv.org/abs/2503.19740).
 
-This repository provides open access to the *LEMON* dataset, *LemonFM* foundation model, and training code. 
 
-[*LEMON*](https://surg-3m.visurg.ai/) is a dataset of 4K surgical high-resolution videos totaling 938 hours from 35 diverse surgical procedure types. Each video is annotated for multi-label classification, indicating the surgical procedures carried out in the video, and for binary classification, indicating if it is robotic or non-robotic. The dataset's annotations can be found in [labels.json](https://github.com/visurg-ai/LEMON/blob/main/labels.json).
 
-[*LemonFM*](https://huggingface.co/visurg/LemonFM) is an image foundation model for surgery, it receives an image as input and produces a feature vector of 1536 features as output. 
 
-<!--The website of our dataset is: [http://LEMON.org](https://LEMON.org)-->
-
-If you use our dataset, model, or code in your research, please cite our paper:
+If you use our model or code in your research, please cite our paper:
 
 ```
 @misc{che2025stitchtimelearningprocedural,
