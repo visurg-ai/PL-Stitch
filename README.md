@@ -61,12 +61,22 @@ Procedural activities, ranging from routine cooking to complex surgical operatio
    ```
 
 
+🗂️ Data preparation
+-------------------
+Download the pretraining dataset ([LEMON](https://github.com/visurg-ai/LEMON)) and evaluation datasets ([Cholec80](https://camma.unistra.fr/datasets/), [AutoLaparo](https://autolaparo.github.io/), [M2CAI16](https://camma.unistra.fr/datasets/), [Breakfast](https://serre.lab.brown.edu/breakfast-actions-dataset.html), [GTEA](https://cbs.ic.gatech.edu/fpv/)).
+
+For efficient data loading, we use the LMDB format. To process these datasets into LMDB, run the following code for both pretraining and evaluation.
+
+
+```bash
+$ bash scripts/covert_lmdb.sh
+```
+
 
 🚀 Training
-------------
+-----------
 
 
-**Dataset**
 
 
    You need to provide a "cookies.txt" file if you want to download videos that require Youtube login. 
@@ -93,11 +103,22 @@ Procedural activities, ranging from routine cooking to complex surgical operatio
    $ python3 src/create_lmdb_LEMON.py --video-folder 'your directory containing the curated videos and their corresponding frame annotation files' --output-json 'your path for the json file to verify the videos and labels alignment' --lmdb-path 'your lmdb storage path'
    ```
 
+
+
+
+📊 Evaluation
+--------------
+
+
+   
+
 <br>
 
 **t-SNE visualization of frozen backbone features for Cholec80 phase recognition**
 
 <img src="https://github.com/user-attachments/assets/9266ea99-44c6-4d28-a12c-7bd7e9361168" />
+
+
 
 🚩 PL-Stitch model
 ------------------
