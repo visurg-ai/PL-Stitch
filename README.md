@@ -53,7 +53,7 @@ Procedural activities, ranging from routine cooking to complex surgical operatio
 🔧 Install dependencies
 --------------------------------------------------
 
-* Install the following dependencies in your local setup:
+Install the following dependencies in your local setup:
 
    ```bash
    $ git clone git@github.com:visurg-ai/PL-Stitch.git
