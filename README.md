@@ -109,11 +109,11 @@ You can download the checkpoint at [🤗 PL-Stitch](https://huggingface.co/visur
    ```python
    import torch
    from PIL import Image
-   from pl_stitch.model.model_loader import build_LemonFM
+   from pl_stitch.build_model import build_model
 
-   # Load the pre-trained LemonFM model
-   LemonFM = build_LemonFM(pretrained_weights = 'your path to the LemonFM')
-   LemonFM.eval()
+   # Load the pre-trained pl_stitch model
+   pl_stitch = build_model(pretrained_weights = 'your path to the model')
+   pl_stitch.eval()
 
    # Load the image and convert it to a PyTorch tensor
    img_path = 'path/to/your/image.jpg'
