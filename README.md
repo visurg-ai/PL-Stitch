@@ -3,7 +3,7 @@
 
 <!-- Paper -->
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge)](https://www.arxiv.org/abs/2511.17805)
-[![Model](https://img.shields.io/badge/Model-HuggingFace-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/PL_Stitch)
+[![Model](https://img.shields.io/badge/Model-HuggingFace-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/PL-Stitch)
 
 
 
@@ -103,7 +103,7 @@ $ bash scripts/eval.sh
 🚩 PL-Stitch model
 ------------------
 
-You can download the checkpoint at [🤗 PL-Stitch](https://huggingface.co/visurg/PL_Stitch) and run the following code to extract features from your video frames.
+You can download the checkpoint at [🤗 PL-Stitch](https://huggingface.co/visurg/PL-Stitch) and run the following code to extract features from your video frames.
 
 
    ```python
