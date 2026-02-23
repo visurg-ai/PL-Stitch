@@ -20,7 +20,8 @@ Star ⭐ us if you like it!
 ## News
 
 <!--<br>-->
-* 21/November/2025. The [arXiv](https://www.arxiv.org/abs/2511.17805) version of the paper is released.
+* 23/Feb/2025. Our paper is accepted to CVPR2026 main conference.
+* 21/Nov/2025. The [arXiv](https://www.arxiv.org/abs/2511.17805) version of the paper is released.
 
 <br>
 
