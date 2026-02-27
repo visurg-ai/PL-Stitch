@@ -104,7 +104,7 @@ $ bash scripts/eval.sh
 🚩 PL-Stitch model
 ------------------
 
-You can download the checkpoint at [🤗 PL-Stitch](https://huggingface.co/visurg/PL-Stitch/tree/main) and run the following code to extract features from your video frames.
+You can download the checkpoint at [🤗 PL-Stitch]([https://huggingface.co/visurg/PL-Stitch/tree/main](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_lemon.pth)) and run the following code to extract features from your video frames.
 
 
    ```python
