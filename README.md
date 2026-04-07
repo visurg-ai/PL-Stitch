@@ -1,12 +1,13 @@
 # PL-Stitch
 
+
 <!-- Paper -->
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge)](https://www.arxiv.org/abs/2511.17805)
 [![Model](https://img.shields.io/badge/Model-HuggingFace-ffcc00?style=for-the-badge&logo=huggingface)](https://huggingface.co/visurg/PL-Stitch)
 
 
 
-This is the official repository for the paper [A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](https://www.arxiv.org/abs/2511.17805).
+This is the official repository for the CVPR 2026 paper "[A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](https://www.arxiv.org/abs/2511.17805)".
 
 *PL-Stitch* is an image foundation model that captures visual changes over time, enabling procedural activity understanding. It takes an image as input and produces a feature vector as output, leveraging the novel Plackett-Luce temporal ranking objective to build a comprehensive understanding of both the static semantic information and the procedural context within each frame.
 
