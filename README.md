@@ -57,8 +57,8 @@ Procedural activities, ranging from routine cooking to complex surgical operatio
 Install the following dependencies in your local setup:
 
    ```bash
-   $ git clone git@github.com:visurg-ai/PL-Stitch.git
-   $ cd PL-Stitch && pip install -r requirements.txt
+   git clone git@github.com:visurg-ai/PL-Stitch.git
+   cd PL-Stitch && pip install -r requirements.txt
    ```
 
 
@@ -70,7 +70,7 @@ For efficient data loading, we use the LMDB format. To process these datasets in
 
 
 ```bash
-$ bash scripts/covert_lmdb.sh
+bash scripts/covert_lmdb.sh
 ```
 
 
@@ -79,7 +79,7 @@ $ bash scripts/covert_lmdb.sh
 We provide a script with default parameters for PL-Stitch model pretraining.
 
 ```bash
-$ bash scripts/pretrain.sh
+bash scripts/pretrain.sh
 ```
 
 
@@ -88,7 +88,7 @@ $ bash scripts/pretrain.sh
 --------------
 We provide a script for the downstream task evaluation.
 ```bash
-$ bash scripts/eval.sh
+bash scripts/eval.sh
 ```
 
    
