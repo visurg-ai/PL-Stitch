@@ -1,5 +1,4 @@
-**PL-Stitch**
--------------
+# PL-Stitch
 
 <!-- Paper -->
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge)](https://www.arxiv.org/abs/2511.17805)
