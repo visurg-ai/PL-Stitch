@@ -80,12 +80,12 @@ We provide scripts to pretrain the PL-Stitch model using either LMDB or raw vide
 
 1. To pretrain using LMDB:
 ```bash
-bash scripts/pretrain_lmdb.sh
+bash scripts/pretrain_lmdb.sh --data_path "/path/to/your/dataset.lmdb"
 ```
 
 2. To pretrain using raw videos:
 ```bash
-bash scripts/pretrain_video.sh
+bash scripts/pretrain_video.sh --data_path "/path/to/your/videos_folder"
 ```
 
 
