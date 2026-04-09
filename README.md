@@ -66,7 +66,7 @@ Install the following dependencies in your local setup:
 -------------------
 Download the pretraining dataset ([LEMON](https://github.com/visurg-ai/LEMON)) and evaluation datasets ([Cholec80](https://camma.unistra.fr/datasets/), [AutoLaparo](https://autolaparo.github.io/), [M2CAI16](https://camma.unistra.fr/datasets/), [Breakfast](https://serre.lab.brown.edu/breakfast-actions-dataset.html), [GTEA](https://cbs.ic.gatech.edu/fpv/)).
 
-For efficient data loading, we use the LMDB format. To process these datasets into LMDB, run the following code for both pretraining and evaluation.
+For efficient data loading, we use the LMDB format by default. To process these datasets into LMDB, run the following code for both pretraining and evaluation.
 
 
 ```bash
@@ -74,12 +74,18 @@ bash scripts/covert_lmdb.sh
 ```
 
 
-🚀 Training
+🚀 Pretraining
 -----------
-We provide a script with default parameters for PL-Stitch model pretraining.
+We provide scripts to pretrain the PL-Stitch model using either LMDB or raw video files.
 
+1. To pretrain using LMDB:
 ```bash
-bash scripts/pretrain.sh
+bash scripts/pretrain_lmdb.sh
+```
+
+2. To pretrain using raw videos:
+```bash
+bash scripts/pretrain_video.sh
 ```
 
 

@@ -6,10 +6,10 @@ python -m torch.distributed.run \
   --nproc_per_node=4 \
   --nnodes=1 \
   --master_port="${MASTER_PORT:-29502}" \
-  main_pl.py \
+  main_pl_lmdb.py \
       --arch vit_base \
       --output_dir pl_vitbase16 \
-      --data_path lemon.lmdb \
+      --data_path "lemon.lmdb" \
       --epochs 30 \
       --warmup_epochs 3 \
       --lambda_puzzle 0.4 \
