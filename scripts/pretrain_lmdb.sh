@@ -21,5 +21,6 @@ python -m torch.distributed.run \
       --local_crops_scale 0.05 0.25 \
       --lambda_video 1.0 \
       --lambda_puzzle 0.4 \
-      --momentum_teacher 0.998
+      --momentum_teacher 0.998 \
+      "$@"
 
