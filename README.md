@@ -17,7 +17,7 @@ Star ⭐ us if you like it!
 
 <img src="https://github.com/user-attachments/assets/e7b35eca-ff57-4d3c-960c-ff4c4a93f092" />
 
-## News
+## 💡 News
 
 <!--<br>-->
 * 23/Feb/2025. Our paper is accepted to **CVPR 2026** main conference.
