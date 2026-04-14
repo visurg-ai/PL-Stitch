@@ -1,4 +1,4 @@
-# PL-Stitch
+# A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking (CVPR 2026)
 
 
 <!-- Paper -->
