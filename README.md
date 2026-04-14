@@ -1,7 +1,5 @@
 # A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking (CVPR 2026)
 
-Star ⭐ us if you like it!
-
 
 [![Paper](https://img.shields.io/badge/📚_Paper-arXiv-b31b1b?style=flat)](https://www.arxiv.org/abs/2511.17805)
 &nbsp;&nbsp;
@@ -13,6 +11,8 @@ This is the official repository for the **CVPR 2026** paper "[A Stitch in Time: 
 PL-Stitch is an image foundation model that captures visual changes over time, enabling procedural activity understanding. It takes an image as input and produces a feature vector as output, leveraging the novel Plackett-Luce temporal ranking objective to build a comprehensive understanding of both the static semantic information and the procedural context within procedural videos.
 
 
+
+Star ⭐ us if you like it!
 
 
 
