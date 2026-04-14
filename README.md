@@ -4,7 +4,7 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/📚_Paper-arXiv-b31b1b?style=flat)](https://www.arxiv.org/abs/2511.17805)
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Model](https://img.shields.io/badge/🤗_Model-HuggingFace-ffcc00?style=flat)](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_lemon.pth)
 
 </div>
