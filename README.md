@@ -6,6 +6,7 @@
 [![Model](https://img.shields.io/badge/🤗_Model-HuggingFace-ffcc00?style=flat)](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_lemon.pth)
 
 ## 💡 News
+Star ⭐ us if you like it!
 
 * **[Feb 2026]** 🎉 Our paper has been accepted to the **CVPR 2026** main conference!
 * **[Nov 2025]** 📄 The [arXiv](https://www.arxiv.org/abs/2511.17805) preprint of our paper is now available.
@@ -16,7 +17,7 @@ PL-Stitch is an image foundation model that captures visual changes over time, e
 
 
 
-Star ⭐ us if you like it!
+
 
 
 
