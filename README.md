@@ -5,6 +5,10 @@
 &nbsp;&nbsp;
 [![Model](https://img.shields.io/badge/🤗_Model-HuggingFace-ffcc00?style=flat)](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_lemon.pth)
 
+## 💡 News
+
+* **[Feb 2026]** 🎉 Our paper has been accepted to the **CVPR 2026** main conference!
+* **[Nov 2025]** 📄 The [arXiv](https://www.arxiv.org/abs/2511.17805) preprint of our paper is now available.
 
 This is the official repository for the **CVPR 2026** paper "[A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking](https://www.arxiv.org/abs/2511.17805)".
 
@@ -18,11 +22,7 @@ Star ⭐ us if you like it!
 
 <img src="https://github.com/user-attachments/assets/e7b35eca-ff57-4d3c-960c-ff4c4a93f092" />
 
-## 💡 News
 
-<!--<br>-->
-* 23/Feb/2025. Our paper is accepted to **CVPR 2026** main conference.
-* 21/Nov/2025. The [arXiv](https://www.arxiv.org/abs/2511.17805) version of the paper is released.
 
 <br>
 
