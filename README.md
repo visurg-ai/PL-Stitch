@@ -110,7 +110,14 @@ bash scripts/eval.sh
 🚩 PL-Stitch model
 ------------------
 
-You can download the checkpoint at [🤗 PL-Stitch](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_lemon.pth) and run the following code to extract features from your video frames.
+
+You can download the pretrained checkpoints from the table below and run the following code to extract features from your video frames.
+
+| Pretraining Dataset | Model Weight Link | File Name |
+| :--- | :--- | :--- |
+| **LEMON** | [🤗 Download](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_lemon.pth) | `pl_lemon.pth` |
+| **Breakfast** | [🤗 Download](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_breakfast.pth) | `pl_breakfast.pth` |
+| **GTEA** | [🤗 Download](https://huggingface.co/visurg/PL-Stitch/blob/main/pl_gtea.pth) | `pl_gtea.pth` |
 
 
    ```python
