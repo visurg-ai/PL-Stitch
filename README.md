@@ -75,16 +75,17 @@ bash scripts/covert_lmdb.sh
 
 🚀 Pretraining
 -----------
-We provide scripts to pretrain the PL-Stitch model using either LMDB or raw video files.
+We provide scripts to pretrain the PL-Stitch model using either LMDB or raw video files. We pretrain from the ImageNet-1K weights of iBOT ViT-B/16. 
+Please download the ImageNet-1K weights [here](https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vitb_16/checkpoint.pth) and rename the file to `cp_IN1k_vitbase16.pth` before running the scripts.
 
 1. To pretrain using LMDB:
 ```bash
-bash scripts/pretrain_lmdb.sh --data_path "/path/to/your/dataset.lmdb"
+bash scripts/pretrain_lmdb.sh --data_path "/path/to/your/dataset.lmdb" --load_from cp_IN1k_vitbase16.pth
 ```
 
 2. To pretrain using raw videos:
 ```bash
-bash scripts/pretrain_video.sh --data_path "/path/to/your/videos_folder"
+bash scripts/pretrain_video.sh --data_path "/path/to/your/videos_folder"  --load_from cp_IN1k_vitbase16.pth
 ```
 
 
