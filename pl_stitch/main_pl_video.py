@@ -61,6 +61,8 @@ def get_args_parser():
         help="Shape of partial prediction.")
     parser.add_argument('--pred_start_epoch', default=0, type=int, 
         help="Start epoch to perform masked image prediction.")
+    parser.add_argument('--frame_number', default=8, type=int, 
+        help="number of frames used for temporal PL ranking.")
     
     # --- Loss Weights ---
     parser.add_argument('--lambda1', default=1.0, type=float, help="Loss weight for [CLS] tokens.")
@@ -147,7 +149,8 @@ def train_pl(args):
     # 2. Temporal Dataset (Video - Direct Video Loading)
     dataset_temporal = Temporal_RandStep_video_dataset(
         video_path=args.data_path, 
-        img_size=224
+        img_size=224,
+        seq_len=args.frame_number
     )
     print(f"Data loaded: there are {len(dataset_temporal)} video clips.")
 
