@@ -50,6 +50,10 @@ Procedural activities, ranging from routine cooking to complex surgical operatio
 
 
 
+
+<img  alt="poster_cvpr26_pl" src="https://github.com/user-attachments/assets/d9e47f10-b4df-4e8a-9d6b-4d065625d417" />
+
+
 🔧 Install dependencies
 --------------------------------------------------
 
