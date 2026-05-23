@@ -75,7 +75,7 @@ bash scripts/covert_lmdb.sh
 🚀 Pretraining
 -----------
 
-We provide scripts for pretraining PL-Stitch with either LMDB or raw video files. Initialization can use either our released PL-Stitch checkpoint or ImageNet-1K iBOT ViT-B/16 weights (download the iBOT checkpoint [here](https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vitb_16/checkpoint.pth)).
+We provide scripts for pretraining PL-Stitch with either LMDB or raw video files. Initialization can use ImageNet-1K iBOT ViT-B/16 [weights](https://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/archive/2022/ibot/vitb_16/checkpoint.pth).
 
 
 
