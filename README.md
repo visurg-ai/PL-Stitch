@@ -32,11 +32,13 @@ PL-Stitch is an image foundation model that captures visual changes over time, e
 If you use our model or code in your research, please cite our paper:
 
 ```
-@InProceedings{Che_2026_CVPR_PLStitch
+@InProceedings{Che_2026_CVPR_PLStitch,
     author    = {Che, Chengan and Wang, Chao and Chen, Xinyue and Tsoka, Sophia and Garcia-Peraza-Herrera, Luis C.},
     title     = {A Stitch in Time: Learning Procedural Workflow via Self-Supervised Plackett-Luce Ranking},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2026}
+    month     = {June},
+    year      = {2026},
+    pages     = {17000-17010}
 }
 ```
 
